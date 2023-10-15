@@ -4,11 +4,19 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    cursor: url('/images/laserdot.png'), auto;
 }
 
 #renderCanvas {
     width: 100%;
     height: 100%;
     display: block;
-    cursor: pointer;
+    cursor: url('images/laserdot.png');
+}
+
+body.defaultCursor {
+    cursor: url('images/laserdot.png'), default;
+}
+a:hover {
+    cursor: url('magnifying-cursor.png'), auto;
 }
